@@ -13,7 +13,7 @@ int main(void) {
     do {
         printf("Minutes into Shower: ");
         n = get_int();
-    } while(n == -1);
+    } while(n < 0);
     
     printf("Bottles of Water: %i\n", n * 12);
 }
